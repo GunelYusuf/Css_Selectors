@@ -1,0 +1,140 @@
+p{
+    color: hotpink;
+}
+
+#exp{
+    color: indigo;
+}
+
+.intro{
+ color: lightseagreen;
+}
+.word1.word2{
+    color: maroon;
+}
+.name1.name2{
+    color: mediumslateblue;
+}
+
+.test1 .test2{
+    color: mediumvioletred;
+}
+
+p.extra{
+color: olivedrab;
+}
+
+p,h5{
+    color:rgb(230, 42, 104);
+}
+ div p{
+     color: royalblue;   
+ }
+
+ div ~ p{
+     color: saddlebrown;
+ }
+
+ div>p{
+     color: salmon;
+ }
+
+ div+p{
+     color: seagreen;
+ }
+ p~ul{
+     color: skyblue;
+ }
+
+h4[class]{
+    color: violet;
+}
+[class=csl]{
+    color: yellowgreen;
+}
+[name~=soul]{
+    border: 3px solid yellowgreen;
+}
+div[class^="https"]{
+    color:saddlebrown;
+}
+
+div[class$="time"]{
+    background-color:seagreen;
+}
+
+p::after{
+    content: "-Remember me" ;
+    color:indigo;
+}
+input:checked{
+    width: 20px;
+    height: 20px;
+}
+
+#photo input:default{
+box-shadow: 0 0 1px 1px red
+}
+
+input[type=text]:enabled{
+    background-color:olive;
+}
+input[type=text]:disabled{
+    background-color:#dddddd;
+}
+p:first-child{
+    background-color: lightpink;
+}
+p:nth-last-child(){
+    background-color: paleturquoise;
+}
+input:focus{
+    background-color: mediumaquamarine;
+}
+a:hover{
+    background-color: mediumaquamarine;
+}
+a:visited{
+    background-color: plum;
+}
+a:active{
+    background-color: springgreen;
+}
+
+::marker{
+    color: orange;
+}
+
+body{
+    /* background-color: plum; */
+    /* background-image: url(../gazelli-cafe.jpeg); */
+    /* background-repeat: no-repeat; */
+    /* background-attachment: scroll; */
+
+}
+
+
+.Main {
+    position: relative;
+  }
+
+ img { 
+    height:600px;
+    width:1300px; 
+    background-image:url(../gazelli-cafe.jpeg);
+    background-attachment: fixed;
+    background-size:cover;
+  }
+
+  .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color:sandybrown;
+    border: 2px solid chocolate;
+  }
+
+
+
+
